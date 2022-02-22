@@ -1,0 +1,36 @@
+ul {
+    display: flex;
+    justify-content:flex-end;
+}
+ul li{
+    margin: 10px;
+    list-style: none;
+  
+}
+.section1{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.section1 img{
+    width: 70px;
+    height: 70px;
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+}
+.section1 h1{
+    color: green;
+}
+.patient{
+    background-color: green;
+}
+.doctors{
+    background-color:blue ;
+}
+.clinics{
+    background-color: black;
+}
+.tables{display: flex;flex-direction: row;justify-content: center;justify-content: space-around;}
+.clinics h1,h2{color: white;}
